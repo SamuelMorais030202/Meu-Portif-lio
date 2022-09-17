@@ -80,11 +80,61 @@ section{
 #imagem > p{
     border: 1px solid black;
     width: 300px;
-    height: 200px;
     padding: 20px;
     background-color: black;
     color: gold;
     border-radius: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.61);
     margin: auto;
+    font-family: cursive;
+    font-size: 25px;
+    box-shadow: 1px 1px 1px gold;
+}
+
+.competencias h2{
+    margin-bottom: 15px;
+    font-family: "Android";
+    font-size: 4vw;
+    font-weight: bold;
+    color: gold;
+}
+
+.competencias{
+    background-color: black;
+    border: 2px solid black;
+    width: 30%;
+    padding: 18px;
+    margin-left: 20px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px gold;
+}
+
+#soft{
+    float: left;
+}
+
+#hard{
+    float: right;
+    margin-right: 20px;
+}
+
+ul#lista-projetos li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+ul#lista-projetos li a:hover{
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: gold;
+    color: black;
+}
+
+section#section-projetos h2{
+    margin-bottom: 35px;
+    font-size: 26px;
+    font-weight: bold;
 }
